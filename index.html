@@ -2,27 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Document</title>
+    <title>First Website</title>
   </head>
   <body>
     <h1 style="color: brown">My Website</h1>
-    <p style="color: cornsilk">I am learning about CRUSH development.</p>
+    <p style="color: rgb(189, 155, 20)">I am learning about WEB development.</p>
     <br />
     <fieldset>
-      <legend>CRUSH</legend>
-      <label for="cars">choose a crush</label>
+      <legend>Cars</legend>
+      <label for="cars">Choose a Car</label>
       <select name="cars" id="cars">
-        <optgroup label="Sakiner crush">
-          <option value="volvo">adhora</option>
-          <option value="Saab">lamyea</option>
+        <optgroup label="swedish cars">
+          <option value="volvo">Volvo</option>
+          <option value="Saab">Saab</option>
         </optgroup>
-        <optgroup label="siamer crush">
-          <option value="marcedes">shanta</option>
-          <option value="audi">naila</option>
+        <optgroup label="german cars">
+          <option value="marcedes">Marcedes</option>
+          <option value="audi">Audi</option>
         </optgroup>
       </select>
       <br />
-      <input type="submit" value="submt" />
+      <input type="submit" value="submit" />
     </fieldset>
+    <br />
+    <label for="browser">choose one browser</label>
+    <input list="browsers" id="browser" />
+    <datalist id="browsers">
+      <option value="edge"></option>
+      <option value="firefox"></option>
+    </datalist>
   </body>
 </html>
