@@ -1,0 +1,27 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+h1 {
+  color: orange;
+}
+#name-clr {
+  color: orangered;
+}
+.first-half {
+  float: left;
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 3%;
+  padding: 3%;
+  box-shadow: 3px 4px 40px gray;
+  border-radius: 2%;
+  height: 55%;
+  background-color: rgb(219, 207, 207);
+}
+section {
+  height: 420px;
+}
+.top {
+  background-image: url("images/1567666.png");
+  background-position: center;
+}
